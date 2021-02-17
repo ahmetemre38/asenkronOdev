@@ -32,15 +32,15 @@ function demlemeSuresiDoldu() {
 function cayDemlendi(){    
     console.log('Çay demlendi.');     
 }
-
-suKaynadi()
+async function islemAkisi() {
+    await suKaynadi()
     .then((data) => {
-        //setTimeout(() => { resolve(console.log(data)); }, 2000);
+        //setTimeout(() => { console.log(data); }, 2000);
         console.log(data);
         demAtildi()  
         .then((data) => {
             //setTimeout(() => { resolve(console.log(data)); }, 2000);
-            console.log(data)
+            console.log(data);
             demlemeSuresiDoldu()
             .then((data) => {
                 //setTimeout(() => { resolve(console.log(data)); }, 2000);
@@ -59,6 +59,6 @@ suKaynadi()
         console.log(hata);
     });
 
-
-
+}
+islemAkisi();
 
