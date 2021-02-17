@@ -12,18 +12,18 @@ function demAtildi(demlemeSuresiDoldu) {
     setTimeout(() => {
         console.log('Kaynayan suya çay atıldı...');
         demlemeSuresiDoldu(cayDemlendi)
-    }, 2000);
+    }, 1000);
 }
 
 function demlemeSuresiDoldu(cayDemlendi) {
     setTimeout(() => {
         console.log('Çayın demlenme süresi tamamlandı...');
         cayDemlendi()
-    }, 3000);
+    }, 1000);
 }
 
 function cayDemlendi(){
     setTimeout(() => {
         console.log('Çay demlendi.');        
-    }, 4000);
+    }, 1000);
 }
