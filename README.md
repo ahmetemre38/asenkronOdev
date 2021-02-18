@@ -1,2 +1,4 @@
-# asenkronOdev
- Adım adım çay demleme işlemi gerçekleştirilmektedir.
+JavaScript Asenkron Ödevi
+
+    * Adım adım çay demleme işlemi gerçekleştirilmektedir.
+
